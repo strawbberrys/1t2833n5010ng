@@ -1,11 +1,20 @@
-
-
 local Player = game:GetService("Players").LocalPlayer
 local WhitelistedIds = {
-    2673957768,
-    2258274790,
-    93046029,
-    485257794, -- etc.. add on to this with actual player ids
+    2673957768, ---holy_punishher
+    2258274790, ---07clips
+    93046029, ---iiiMuji
+    485257794, ---BETA
+    2349605818,
+    368758193, ---4_znx
+    467072045, 
+    103565251, ---Z0nhi
+    29830504, ---6naga
+    2394143462,
+    508340762, ---SawMiss
+    136036647, ---SawKerz
+    1159880547, ---SawVelvet
+    2518835349, ---Max
+    2511158592, ---Jody  
 }
 
 if table.find(WhitelistedIds, Player.UserId) then
