@@ -1,3 +1,16 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Whitelist";
+    Text = "Checking...";
+    Icon = "rbxassetid://2541869220";
+    Duration = 3
+	})
+wait(5)
+
+
+
+
+
+
 local Player = game:GetService("Players").LocalPlayer
 local WhitelistedIds = {
     2673957768,
