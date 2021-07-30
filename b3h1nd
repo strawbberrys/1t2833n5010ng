@@ -5,7 +5,7 @@ local WhitelistedIds = {
     2673957768,
     2258274790,
     93046029,
-    2742541671, -- etc.. add on to this with actual player ids
+    485257794, -- etc.. add on to this with actual player ids
 }
 
 if table.find(WhitelistedIds, Player.UserId) then
